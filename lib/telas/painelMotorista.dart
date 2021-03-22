@@ -14,7 +14,7 @@ class _PainelMotoristaState extends State<PainelMotorista> {
   CameraPosition _cameraPosition =
       CameraPosition(target: LatLng(-22.804937, -47.309988), zoom: 18);
   //MENU USUARIO
-  List<String> itensMenu = ["Configurações", "Deslogar"];
+  List<String> itensMenu = ["Configurações", "Sair"];
   //CONTROLLER GOOGLE MAP
   Completer<GoogleMapController> _controller = Completer();
 
